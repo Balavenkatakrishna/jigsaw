@@ -1,0 +1,61 @@
+
+#container{
+  width:820px;
+  border:2px solid black;
+  border-radius: 20px;
+  margin:10px auto;
+  padding: 10px;
+}
+#pieceContainer{
+  width:400px;
+  height: 400px;
+  border:1px solid black;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  position:relative;
+}
+#puzzleContainer{
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  float:right;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+ul buttons {
+  width: 100px;
+  border:1px solid blue;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#btnReset{
+  display: none;
+}
+#btnStart{
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.piece{
+  width: 100px;
+  height: 100px;
+  border:1px solid black;
+  float: left;
+  background-image: url(beam.jpg);
+  background-repeat: no-repeat;
+}
+img{
+  background-image: url(beam.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border:2px solid black;
+}
